@@ -3,17 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>Hackaton</title>
-        <script type="text/javascript" src="hackaton.js"></script>
         <link href="hackaton.css" rel="stylesheet" />
     </head>
     <body>
         <div id="wrapper">
-            <div id="main">
+            <form id="main" class="box">
                 <h1>Music and shit.</h1>
                 <input type="text" id=""/>
-                <button type="button">Fucking search</button>
+                <button type="button" id="search-btn">Fucking search</button>
+            </form>
+            <div id="load" class="box" style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+            <div id="song" class="box" style="display: none;">
+                <div class="songinfo">
+                    <h3>Just dance</h3>
+                    <h4><span>por</span> Lady Gaga</h4>
+                    <h4><span>de</span> The Fame</h4>
+                </div>
+                <img class="cover" src="testcover.png" alt="" />
+                <div class="clearfix"></div>
             </div>
         </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="hackaton.js"></script>
     </body>
 </html>
 

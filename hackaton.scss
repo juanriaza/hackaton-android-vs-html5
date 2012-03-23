@@ -21,15 +21,16 @@ body{
     }
 }
 
-#main {
+.box{
     color: #666;
     width: 400px;
     padding: 30px;
     background: white;
     margin: 0 auto;
     @include border-radius(10px);
-
+    border: 1px solid #78C0A8;
 }
+
 #main input{
     width: 400px;
     margin: 0;
@@ -48,5 +49,50 @@ button{
     padding: 5px 10px;
     margin: 10px auto;
     display: block;
+}
+
+.loader{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    margin: 30px auto;
+    background: url("ajax-loader.gif");
+
+}
+
+.cover{
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    float: right;
+    @include box-shadow(#ccc 3px 3px 3px);
+}
+
+.songinfo{
+    padding-top: 50px;
+    width: 150px;
+    float: left;
+    h3, h4{
+        text-align: right;
+        margin: 0;
+        color: #000
+    }
+    h3{
+        font-size: 23px;
+    }
+    h4{
+        font-size: 17px;
+        & > span{
+            font-size: 15px;
+            color: #999;
+        }
+    }
+}
+
+.clearfix{
+    height: 0px;
+    clear: both;
 }
 

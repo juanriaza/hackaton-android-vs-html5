@@ -22,7 +22,7 @@ body {
   }
 }
 /* line 24, hackaton.scss */
-#main {
+.box {
   color: #666;
   width: 400px;
   padding: 30px;
@@ -34,28 +34,84 @@ body {
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+  border: 1px solid #78C0A8;
 }
 
-/* line 33, hackaton.scss */
+/* line 34, hackaton.scss */
 #main input {
   width: 400px;
   margin: 0;
   padding: 5px;
   border: 1px solid #666;
 }
-/* line 38, hackaton.scss */
+/* line 39, hackaton.scss */
 #main input:focus {
   border-color: #999;
 }
 
-/* line 43, hackaton.scss */
+/* line 44, hackaton.scss */
 h1 {
   text-align: center;
 }
 
-/* line 47, hackaton.scss */
+/* line 48, hackaton.scss */
 button {
   padding: 5px 10px;
   margin: 10px auto;
   display: block;
+}
+
+/* line 54, hackaton.scss */
+.loader {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  margin: 30px auto;
+  background: url("ajax-loader.gif");
+}
+
+/* line 65, hackaton.scss */
+.cover {
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+  float: right;
+  -moz-box-shadow: #cccccc 3px 3px 3px;
+  -webkit-box-shadow: #cccccc 3px 3px 3px;
+  -o-box-shadow: #cccccc 3px 3px 3px;
+  box-shadow: #cccccc 3px 3px 3px;
+}
+
+/* line 73, hackaton.scss */
+.songinfo {
+  padding-top: 50px;
+  width: 150px;
+  float: left;
+}
+/* line 77, hackaton.scss */
+.songinfo h3, .songinfo h4 {
+  text-align: right;
+  margin: 0;
+  color: #000;
+}
+/* line 82, hackaton.scss */
+.songinfo h3 {
+  font-size: 23px;
+}
+/* line 85, hackaton.scss */
+.songinfo h4 {
+  font-size: 17px;
+}
+/* line 87, hackaton.scss */
+.songinfo h4 > span {
+  font-size: 15px;
+  color: #999;
+}
+
+/* line 94, hackaton.scss */
+.clearfix {
+  height: 0px;
+  clear: both;
 }
