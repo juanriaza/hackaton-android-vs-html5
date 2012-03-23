@@ -15,7 +15,13 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* line 18, hackaton.scss */
+@media (max-width: 600px) {
+  /* line 19, hackaton.scss */
+  #wrapper {
+    width: 100% !important;
+  }
+}
+/* line 24, hackaton.scss */
 #main {
   color: #666;
   width: 400px;
@@ -30,7 +36,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 27, hackaton.scss */
+/* line 33, hackaton.scss */
 #main input {
   width: 400px;
   margin: 0;
@@ -38,12 +44,12 @@ body {
   border: 1px solid #666;
 }
 
-/* line 34, hackaton.scss */
+/* line 40, hackaton.scss */
 h1 {
   text-align: center;
 }
 
-/* line 37, hackaton.scss */
+/* line 43, hackaton.scss */
 button {
   padding: 5px 10px;
   margin: 10px auto;
