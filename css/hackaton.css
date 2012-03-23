@@ -59,9 +59,10 @@ button {
   padding: 5px 10px;
   margin: 10px auto;
   display: block;
+  width: 130px;
 }
 
-/* line 54, hackaton.scss */
+/* line 55, hackaton.scss */
 .loader {
   text-indent: 100%;
   white-space: nowrap;
@@ -72,7 +73,7 @@ button {
   background: url("ajax-loader.gif");
 }
 
-/* line 65, hackaton.scss */
+/* line 66, hackaton.scss */
 .cover {
   width: 200px;
   height: 200px;
@@ -84,33 +85,33 @@ button {
   box-shadow: #cccccc 3px 3px 3px;
 }
 
-/* line 73, hackaton.scss */
+/* line 74, hackaton.scss */
 .songinfo {
   padding-top: 50px;
   width: 150px;
   float: left;
 }
-/* line 77, hackaton.scss */
+/* line 78, hackaton.scss */
 .songinfo h3, .songinfo h4 {
   text-align: right;
   margin: 0;
   color: #000;
 }
-/* line 82, hackaton.scss */
+/* line 83, hackaton.scss */
 .songinfo h3 {
   font-size: 23px;
 }
-/* line 85, hackaton.scss */
+/* line 86, hackaton.scss */
 .songinfo h4 {
   font-size: 17px;
 }
-/* line 87, hackaton.scss */
+/* line 88, hackaton.scss */
 .songinfo h4 > span {
   font-size: 15px;
   color: #999;
 }
 
-/* line 94, hackaton.scss */
+/* line 95, hackaton.scss */
 .clearfix {
   height: 0px;
   clear: both;
