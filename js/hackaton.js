@@ -21,6 +21,19 @@ function loadSong(songData){
 function querySong(songData){
     switchContext("load");
 
+    /*
+     *
+     $.getJSON("http://bengoarocandio.com:5000/?mood=" + encodeURIComponent($("#input").val()), function(data){
+        console.log(data);
+        loadSong({
+            title: "Just Dance",
+            author: "Lady Gaga",
+            record: "The fame",
+            cover: "testcover.png",
+            video: "WBYkB_Rz7XM"
+        });
+    });
+    */
     setTimeout(function(){
         loadSong({
             title: "Just Dance",
