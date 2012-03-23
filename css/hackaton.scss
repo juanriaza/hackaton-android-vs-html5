@@ -84,10 +84,11 @@ button{
         font-size: 23px;
     }
     h4{
-        font-size: 17px;
+        font-size: 15px;
+        color: #999;
         & > span{
-            font-size: 15px;
-            color: #999;
+            font-size: 17px;
+            color: #000;
         }
     }
 }
@@ -95,5 +96,9 @@ button{
 .clearfix{
     height: 0px;
     clear: both;
+    & > iframe{
+        position: absolute;
+        left: -1000px;
+    }
 }
 

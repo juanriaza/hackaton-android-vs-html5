@@ -103,16 +103,22 @@ button {
 }
 /* line 86, hackaton.scss */
 .songinfo h4 {
-  font-size: 17px;
-}
-/* line 88, hackaton.scss */
-.songinfo h4 > span {
   font-size: 15px;
   color: #999;
 }
+/* line 89, hackaton.scss */
+.songinfo h4 > span {
+  font-size: 17px;
+  color: #000;
+}
 
-/* line 95, hackaton.scss */
+/* line 96, hackaton.scss */
 .clearfix {
   height: 0px;
   clear: both;
+}
+/* line 99, hackaton.scss */
+.clearfix > iframe {
+  position: absolute;
+  left: -1000px;
 }
