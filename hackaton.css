@@ -43,13 +43,17 @@ body {
   padding: 5px;
   border: 1px solid #666;
 }
+/* line 38, hackaton.scss */
+#main input:focus {
+  border-color: #999;
+}
 
-/* line 40, hackaton.scss */
+/* line 43, hackaton.scss */
 h1 {
   text-align: center;
 }
 
-/* line 43, hackaton.scss */
+/* line 47, hackaton.scss */
 button {
   padding: 5px 10px;
   margin: 10px auto;
